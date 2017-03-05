@@ -16,9 +16,9 @@ def countRows(fname):
     x = -1
     for row in reader:
         x+=1
-    print(fname, ":", x , " lines total", sep = '')
 
     f.close()  
+    return x
     
 if __name__ == "__main__":
     print("START")
@@ -30,6 +30,7 @@ if __name__ == "__main__":
     'reviews_allUSAMexicanRes.csv',
     'reviews_NEGallUSASearchedRes.csv']
     for i in files:
-        countRows(i)
+        x =         countRows(i)
+        print(i,":", x , " lines total", sep = '') 
 
     print("END")
