@@ -1,0 +1,22 @@
+0.8517197452229299
+Most Informative Features
+         contains(worst) = True                0 : 1      =     22.8 : 1.0
+      contains(horrible) = True                0 : 1      =     13.4 : 1.0
+      contains(terrible) = True                0 : 1      =      9.2 : 1.0
+          contains(rude) = True                0 : 1      =      8.2 : 1.0
+         contains(yummy) = True                1 : 0      =      7.2 : 1.0
+     contains(excellent) = True                1 : 0      =      6.9 : 1.0
+     contains(delicious) = True                1 : 0      =      6.6 : 1.0
+     contains(perfectly) = True                1 : 0      =      6.5 : 1.0
+     contains(fantastic) = True                1 : 0      =      6.5 : 1.0
+       contains(perfect) = True                1 : 0      =      6.2 : 1.0
+    contains(reasonable) = True                1 : 0      =      5.5 : 1.0
+     contains(wonderful) = True                1 : 0      =      5.4 : 1.0
+       contains(amazing) = True                1 : 0      =      5.0 : 1.0
+       contains(awesome) = True                1 : 0      =      4.6 : 1.0
+         contains(money) = True                0 : 1      =      4.4 : 1.0
+          contains(told) = True                0 : 1      =      4.4 : 1.0
+      contains(favorite) = True                1 : 0      =      4.3 : 1.0
+        contains(tender) = True                1 : 0      =      4.3 : 1.0
+         contains(loved) = True                1 : 0      =      3.9 : 1.0
+       contains(manager) = True                0 : 1      =      3.8 : 1.0

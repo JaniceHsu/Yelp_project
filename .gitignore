@@ -14,3 +14,5 @@ yelp_academic_dataset_review.csv
 /ttt
 *-checkpoint.ipynb
 *.csv
+
+*__pycache__*
