@@ -1,0 +1,13 @@
+http://www.sciencedirect.com/science/article/pii/S2090447914000550
+
+ Naïve Bayes Classifier (NB)
+
+The Naïve Bayes classifier is the simplest and most commonly used classifier. Naïve Bayes classification model computes the posterior probability of a class, based on the distribution of the words in the document. The model works with the BOWs feature extraction which ignores the position of the word in the document. It uses Bayes Theorem to predict the probability that a given feature set belongs to a particular label.
+
+Maximum Entropy Classifier (ME)
+
+The Maxent Classifier (known as a conditional exponential classifier) converts labeled feature sets to vectors using encoding.
+
+4.1.1.2.1. Support Vector Machines Classifiers (SVM)
+
+The main principle of SVMs is to determine linear separators in the search space which can best separate the different classes. 

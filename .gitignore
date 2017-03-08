@@ -16,3 +16,6 @@ yelp_academic_dataset_review.csv
 *.csv
 
 *__pycache__*
+
+/stanford-ner
+/stanford-postagger

@@ -1,0 +1,25 @@
+0.8574594238485955
+More :1
+0.6962375573470048
+Most Informative Features		      neg:pos     =        ratio
+         contains(worst) = True                0 : 1      =     42.0 : 1.0
+      contains(horrible) = True                0 : 1      =     23.9 : 1.0
+      contains(terrible) = True                0 : 1      =     19.5 : 1.0
+          contains(rude) = True                0 : 1      =     12.5 : 1.0
+     contains(delicious) = True                1 : 0      =      8.2 : 1.0
+         contains(bland) = True                0 : 1      =      7.8 : 1.0
+         contains(yummy) = True                1 : 0      =      7.8 : 1.0
+       contains(perfect) = True                1 : 0      =      7.8 : 1.0
+     contains(perfectly) = True                1 : 0      =      6.5 : 1.0
+     contains(fantastic) = True                1 : 0      =      6.4 : 1.0
+     contains(excellent) = True                1 : 0      =      6.2 : 1.0
+     contains(wonderful) = True                1 : 0      =      6.2 : 1.0
+       contains(awesome) = True                1 : 0      =      6.2 : 1.0
+       contains(amazing) = True                1 : 0      =      6.1 : 1.0
+           contains(yum) = True                1 : 0      =      5.6 : 1.0
+         contains(money) = True                0 : 1      =      5.5 : 1.0
+          contains(told) = True                0 : 1      =      4.8 : 1.0
+    contains(reasonable) = True                1 : 0      =      4.7 : 1.0
+        contains(tender) = True                1 : 0      =      4.7 : 1.0
+      contains(favorite) = True                1 : 0      =      4.6 : 1.0
+

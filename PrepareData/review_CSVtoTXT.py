@@ -3,7 +3,8 @@
 Created on Wed Mar  1 18:54:02 2017
 
 @author: Janice
-
+4-5 Stars --> 1
+1-2 stars --> 0
 
 """
 import csv
@@ -30,11 +31,11 @@ def categorize2(reader, d, x, i):
             if x % 20000 == 0:
                 print(x)
           
-            if int(row[5]) > 2:
+            if int(row[5]) > 3:
                 writer.writerow([row[3], 1])
                 #fp.write("{}\n".format(re.sub("\n", " ", row[3])))
                 pos += 1
-            else:
+            elif int(row[5]) <3:
                 writer.writerow([row[3], 0])
                 #fn.write("{}\n".format(re.sub("\n", " ", row[3])))
                 neg += 1

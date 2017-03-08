@@ -1,0 +1,44 @@
+reviews: ['funny', 'user_id', 'review_id', 'text', 'business_id', 'stars', 'date', 'useful', 'type', 'cool']
+businesses: #[(0, 'neighborhood'), (1, 'business_id'), (2, 'hours'), (3, 'is_open'), 
+#(4, 'address'), (5, 'attributes'), (6, 'categories'), (7, 'city'), 
+#(8, 'review_count'), (9, 'name'), (10, 'longitude'), (11, 'state'), 
+#(12, 'stars'), (13, 'latitude'), (14, 'postal_code'), (15, 'type')]
+
+--Chinese (1776 vs. 1938 restuarants in USA) - no Italian no Mexican no Japanese no 'American (Traditional)' no Indian
+--Mexican (3097 vs. 3197 restuarants in USA)
+--Japanese (870 vs. 1005 restuarants in USA)
+--Italian (2190 vs. 2340)
+--American (Traditional) (4279)
+--Indian (342)
+
+
+reviews_allUSAAmericanRes.csv
+reviews_allUSAChineseRes.csv
+reviews_allUSAIndianRes.csv
+reviews_allUSAItalianRes.csv
+reviews_allUSAJapaneseRes.csv
+reviews_allUSAMexicanRes.csv
+
+Number of Reviews
+reviews_allUSAAmericanRes.csv: 342509 lines total
+
+reviews_allUSAChineseRes.csv: 98105 lines total
+
+reviews_allUSAIndianRes.csv: 28332 lines total
+
+reviews_allUSAItalianRes.csv: 175386 lines total
+
+reviews_allUSAJapaneseRes.csv: 113852 lines total
+
+reviews_allUSAMexicanRes.csv: 205403 lines total
+
+reviews_NEGallUSASearchedRes.csv: 3287668 lines total
+
+Chinese
+Pos: 72746
+Neg: 25359
+change 3,4,5 -> 1
+	   1,2   -> 0
+'charmap' codec can't encode characters in position 0-1: character maps to <undefined>
+
+'charmap' codec can't encode character '\uff01' in position 83: character maps to <undefined> 5
