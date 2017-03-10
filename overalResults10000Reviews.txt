@@ -1,0 +1,106 @@
+Pos    : 6956
+NumRows: 10000
+Base   : 69.560
+ Function: extract_text_features()
+ Student: Janice_Hsu,   Function: fit_and_predict_LR()
+ Student: Janice_Hsu,   Function: fit_and_predict_LR()
+#####Predicted labels with multinomial NB classifier:
+Good food.  Unique drinks.  Possibly the best ambi -> 1, 1
+Natt Spil is up there as one of my favorite places -> 1, 1
+No name outfront, dark and uninviting, but it is v -> 1, 1
+We were a party of 4 on a very busy Saturday night -> 0, 0
+Writing bad reviews makes me nervous, especially w -> 1, 0
+
+#####Predicted labels with Bernoulli NB classifier:
+Good food.  Unique drinks.  Possibly the best ambi -> 1, 1
+Natt Spil is up there as one of my favorite places -> 1, 1
+No name outfront, dark and uninviting, but it is v -> 1, 1
+We were a party of 4 on a very busy Saturday night -> 0, 0
+Writing bad reviews makes me nervous, especially w -> 0, 0
+
+####Predicted labels with kNN classifier:
+Good food.  Unique drinks.  Possibly the best ambi -> 1, 1
+Natt Spil is up there as one of my favorite places -> 1, 1
+No name outfront, dark and uninviting, but it is v -> 1, 1
+We were a party of 4 on a very busy Saturday night -> 1, 0
+Writing bad reviews makes me nervous, especially w -> 1, 0
+
+####Predicted labels with logistic classifier:
+Good food.  Unique drinks.  Possibly the best ambi -> 1, 1
+Natt Spil is up there as one of my favorite places -> 1, 1
+No name outfront, dark and uninviting, but it is v -> 1, 1
+We were a party of 4 on a very busy Saturday night -> 0, 0
+Writing bad reviews makes me nervous, especially w -> 0, 0
+
+
+test_classifiers(twenty_train, twenty_test, 1 [min_docs])
+ Function: extract_text_features()
+Number of (training) documents = 8000
+Vocabulary size = 16494
+ Student: Janice_Hsu,   Function: fit_and_predict_LR()
+ Student: Janice_Hsu,   Function: fit_and_predict_LR()
+Accuracy with multinomial naive Bayes: 0.756
+Accuracy with Bernoulli naive Bayes: 0.839
+Accuracy with logistic regression: 0.913
+Accuracy with kNN, k=3 classifier: 0.789
+Accuracy with kNN, k=5 classifier: 0.795
+
+test_classifiers(twenty_train, twenty_test, 3 [min_docs])
+ Function: extract_text_features()
+Number of (training) documents = 8000
+Vocabulary size = 6861
+ Student: Janice_Hsu,   Function: fit_and_predict_LR()
+ Student: Janice_Hsu,   Function: fit_and_predict_LR()
+Accuracy with multinomial naive Bayes: 0.832
+Accuracy with Bernoulli naive Bayes: 0.860
+Accuracy with logistic regression: 0.914
+Accuracy with kNN, k=3 classifier: 0.689
+Accuracy with kNN, k=5 classifier: 0.690
+
+test_classifiers(twenty_train, twenty_test, 5 [min_docs])
+ Function: extract_text_features()
+Number of (training) documents = 8000
+Vocabulary size = 4853
+ Student: Janice_Hsu,   Function: fit_and_predict_LR()
+ Student: Janice_Hsu,   Function: fit_and_predict_LR()
+Accuracy with multinomial naive Bayes: 0.861
+Accuracy with Bernoulli naive Bayes: 0.862
+Accuracy with logistic regression: 0.914
+Accuracy with kNN, k=3 classifier: 0.689
+Accuracy with kNN, k=5 classifier: 0.691
+
+test_classifiers(twenty_train, twenty_test, 10 [min_docs])
+ Function: extract_text_features()
+Number of (training) documents = 8000
+Vocabulary size = 3173
+ Student: Janice_Hsu,   Function: fit_and_predict_LR()
+ Student: Janice_Hsu,   Function: fit_and_predict_LR()
+Accuracy with multinomial naive Bayes: 0.877
+Accuracy with Bernoulli naive Bayes: 0.862
+Accuracy with logistic regression: 0.913
+Accuracy with kNN, k=3 classifier: 0.689
+Accuracy with kNN, k=5 classifier: 0.691
+
+test_classifiers(twenty_train, twenty_test, 50 [min_docs])
+ Function: extract_text_features()
+Number of (training) documents = 8000
+Vocabulary size = 1081
+ Student: Janice_Hsu,   Function: fit_and_predict_LR()
+ Student: Janice_Hsu,   Function: fit_and_predict_LR()
+Accuracy with multinomial naive Bayes: 0.881
+Accuracy with Bernoulli naive Bayes: 0.869
+Accuracy with logistic regression: 0.911
+Accuracy with kNN, k=3 classifier: 0.697
+Accuracy with kNN, k=5 classifier: 0.694
+
+test_classifiers(twenty_train, twenty_test, 100 [min_docs])
+ Function: extract_text_features()
+Number of (training) documents = 8000
+Vocabulary size = 616
+ Student: Janice_Hsu,   Function: fit_and_predict_LR()
+ Student: Janice_Hsu,   Function: fit_and_predict_LR()
+Accuracy with multinomial naive Bayes: 0.862
+Accuracy with Bernoulli naive Bayes: 0.860
+Accuracy with logistic regression: 0.901
+Accuracy with kNN, k=3 classifier: 0.702
+Accuracy with kNN, k=5 classifier: 0.704
