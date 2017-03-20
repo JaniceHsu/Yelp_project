@@ -19,7 +19,6 @@ Created on Thu Mar  9 21:36:13 2017
 @author: Janice
 """
 
-from sklearn.datasets import fetch_20newsgroups
 from sklearn.feature_extraction.text import CountVectorizer
 from nltk import FreqDist
 from nltk.corpus import stopwords
@@ -59,8 +58,8 @@ def extract_text_features(train_data, test_data, min_docs, remove_stop_words ):
         Returns X_train_counts, X_train_tfidf, X_test_counts, X_test_tfidf as a tuple.
 
     """
-    print(' Function: extract_text_features()')
 
+    
     # Generate count vectors from the input data, excluding the NLTK stopwords and
     if remove_stop_words:
         count_vect = CountVectorizer(min_df=min_docs, stop_words ='english')
@@ -184,8 +183,8 @@ def fit_and_predict_LR(X_train, Y_train, X_test):
 
     ### YOUR SOLUTION STARTS HERE### 
     #referenced to sklearn documentation    
-    # Replace FIRSTNAME_LASTNAME with your name
-    print(' Student: Janice_Hsu,   Function: fit_and_predict_LR()')
+
+    
     # fit the model... 
     clf = LogisticRegression().fit(X_train, Y_train)     
     # make predictions 

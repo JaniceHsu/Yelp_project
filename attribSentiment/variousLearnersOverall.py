@@ -171,7 +171,7 @@ def fit_and_predict_LR(X_train, Y_train, X_test):
     ### YOUR SOLUTION STARTS HERE### 
     #referenced to sklearn documentation    
     # Replace FIRSTNAME_LASTNAME with your name
-    print(' Student: Janice_Hsu,   Function: fit_and_predict_LR()')
+
     # fit the model... 
     clf = LogisticRegression().fit(X_train, Y_train)     
     # make predictions 
