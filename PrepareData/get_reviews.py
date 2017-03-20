@@ -6,20 +6,21 @@ Get reviews given a business
 """
 import csv
 
-def get_reviews(_id, n):
+def get_reviews(_id, n, x):
     
     #fname = "../dataset-examples-master/yelp_academic_dataset_review.csv"
-    fname = "reviews_NEGallUSAAmericanRes.csv" 
+#    fname = "reviews_NEGallUSAAmericanRes.csv" 
+    fname = "reviews_allUSAChineseRes.csv"
     f = open(fname, 'r', encoding = 'utf8')
     reader = csv.reader(f)
     
-    ofname = "reviews_allUSA" + n + "Res.csv"
+    ofname = "selectChineseReview"+str(x)+".csv"
     of = open(ofname, 'w', newline = '', encoding = 'utf8')
     writer = csv.writer(of)
     
-    _ofname = "reviews_NEGallUSA" + n + "Res.csv"
-    _of  = open(_ofname, 'w', newline = '', encoding = 'utf8')
-    _writer = csv.writer(_of)
+#    _ofname = "reviews_NEGallUSA" + n + "Res.csv"
+#    _of  = open(_ofname, 'w', newline = '', encoding = 'utf8')
+#    _writer = csv.writer(_of)
     
     
     
@@ -27,19 +28,19 @@ def get_reviews(_id, n):
     
     for row in reader:
         writer.writerow(row)
-        _writer.writerow(row)
+#        _writer.writerow(row)
         break
     
     for row in reader:
         x+=1
         if row[4] in _id:
             writer.writerow(row)
-        else:
-            _writer.writerow(row)
+#        else:
+#            _writer.writerow(row)
         if x%100000 == 0:
             print(x)
     
-    _of.close()
+    #_of.close()
     of.close()
     
 def get_ids(reader):
@@ -51,20 +52,23 @@ def get_ids(reader):
                 continue
             else:
                 ids.append(row[1])
+                print(row[9])
         except:
             pass
     return ids
     
 if __name__ == "__main__":    
-    n = "Indian"
-    fname = "business_allUSA" + n + "Res.csv"
+    #n = "Indian"
+    n = "Chinese"
+    #fname = "business_allUSA" + n + "Res.csv"
+    fname = "select_ChineseRes.csv"
     f = open(fname, 'r', encoding = 'utf8')
     reader = csv.reader(f)
     _id = get_ids(reader)
     print(_id[:20])
     
-
-    get_reviews(_id, n)
+    #for i in range(len(_id)):
+    #    get_reviews(_id[i], n, i+1)
     
     f.close()
     print(n)

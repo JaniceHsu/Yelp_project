@@ -11,3 +11,68 @@ The Maxent Classifier (known as a conditional exponential classifier) converts l
 4.1.1.2.1. Support Vector Machines Classifiers (SVM)
 
 The main principle of SVMs is to determine linear separators in the search space which can best separate the different classes. 
+
+p. 52 - fancy algorithm 
+sentiment word/phrase
+give weights. lower weights to sentiment words far away from aspect
+
+***sum up sentiment by sentence segment
+
+tf-idf plus find common nouns?
+
+5.6 grouping aspects into categories -> wordNet: similarity synonyms; word disdtances
+
+
+small reviews (in length) -> worsd bettter correlated with stars
+long reviews -> more throrough --> discuss different aspects rather than in genearl
+
+
+--undirect
+negative
+food:
+If you were considering the veggie fried rice, just swing by your local supermarket and buy an onion instead.
+service:
+Also, don't expect them to put sweet & sour sauce in your take-out bag if you order egg rolls. They won't.
+
+misleading
+If you go with a large group of friends and you each order a different dish, you'll get to taste a lot more of the Sichuan-ness, and you'll probably end up paying less than for a lunch special.  :-D
+
+
+Price: negative w/o saying 'expensive' directly
+My biggest complaint is that for $7.99, I expected a larger portion with a little more meat.  
+
+negative & positive
+"
+
+Sliced Fish in Oil (spicy)-Well executed dish.  Very flavorful and consistent with others we have tried...
+Mushroom and Pork Stew-"Wheres the pork???" I have saved the worst for last! What a big disappointment this dish was. 
+"
+
+negative but not really on an attribute: very specific attribute--did it make you sick
+Two (2) of us got sick with food poisoning from the at least the water boiled beef. We were on vacation to las vegas and the national parks, and we were thoroughly messed up for the ne
+
+
+future
+take into consideration restaurant name
+NER
+
+
+NO REPEATS
+Jugoo Chinese Restaurant
+Rose Garden Chinese Restaurant
+Yummy Palace
+Panda Express
+Shanghai Lilly
+.
+
+price
+_is a steal
+
+Ignored buffet
+less about service
+
+misspelling
+ its over priced. 
+
+mix up algorith
+ The problems with service that once plagued the restaurant are gone.  Service is very efficient and friendly,

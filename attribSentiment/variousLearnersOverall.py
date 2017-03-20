@@ -5,20 +5,6 @@ Created on Thu Mar  9 21:36:13 2017
 @author: Janice
 """
 
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Mar  9 21:36:13 2017
-
-@author: Janice
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Mar  9 21:36:13 2017
-
-@author: Janice
-"""
-
 from sklearn.datasets import fetch_20newsgroups
 from sklearn.feature_extraction.text import CountVectorizer
 from nltk import FreqDist
@@ -378,4 +364,3 @@ if __name__ == "__main__":
         test_classifiers(train_docs, train_target, test_docs, test_target, i, 3, 5, False) #last paramter -- remove stopwords or not
 
     
-
